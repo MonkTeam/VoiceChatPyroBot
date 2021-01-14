@@ -16,5 +16,3 @@ COPY . .
 
 CMD ["bash","start.sh"]
 
-
-0 comments on c
