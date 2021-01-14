@@ -19,7 +19,7 @@
     },
       "TOKEN": {
         "description": "The telegram bot token that you get from @BotFather.",
-        "value": "1514565679:AAHDWubNCdFiDZ-XTXaIy0NXpBozH95kMTM",
+        "value": "1566418454:AAHj1n8JqtQOSjLVmdy6EDLz8hjM2T6lFDc",
         "required": true
       },
       "SUDO_USERS": {
