@@ -1,0 +1,71 @@
+{
+    "name": "AiTorrentWare-Bot",
+    "description": "Telegram-Direct-Mirror to G-Drive",
+    "logo": "https://telegra.ph/file/b0526eab13658ff5e2123.jpg",
+    "keywords": [
+      "telegram",
+      "bot",
+      "voice",
+      "python"
+    ],
+    "repository": "https://github.com/MonkTeam/VoiceChatPyroBot",
+    "website": "https://t.me/AiTorrent_Ware",
+    "success_url": "https://t.me/AiTorrent_Ware",
+    "stack": "container",
+    "env": {
+      "ENV": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+      "TOKEN": {
+        "description": "The telegram bot token that you get from @BotFather.",
+        "value": "1514565679:AAHDWubNCdFiDZ-XTXaIy0NXpBozH95kMTM",
+        "required": true
+      },
+      "SUDO_USERS": {
+        "description": "The telegram bot which works on this owners",
+        "value": "[1004538768, 1327934109]",
+        "required": true
+      },
+      "LOG_GROUP": {
+        "description": "A group ID to send messages to when a song starts playing, Just keep it like this if you are not going to use one.",
+        "value": "-1001491078689",
+        "required": true
+      },
+      "LANG": {
+        "description": "Choose the preferred language for your bot. If English leave as it is, or change to the code of any supported language.",
+        "value": "/app/downloads",
+        "required": false
+      },
+      "DUR_LIMIT": {
+        "description": "Max video duration allowed for downloads in minutes.",
+        "value": "10",
+        "required":false
+      },
+      "REMOVE_AFTER_PLAYING": {
+        "description": "Remove downloaded files after playing.",
+        "value": "False",
+        "required": true
+      },
+      "BANNED": {
+        "description": "Banned Users.",
+        "value": "30",
+        "required": false
+      },
+      "API_ID": {
+        "description": "This is to authenticate to your telegram account for downloading Telegram files. You can get this from https://my.telegram.org DO NOT put this in quotes.",
+        "value": "1667813",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "This is to authenticate to your telegram account for downloading Telegram files. You can get this from https://my.telegram.org.",
+        "value": "1f6921c27bf6cd01aba471a14ff33bcb",
+        "required": true
+      }
+    },
+    "addons": [
+      {
+        "plan": "heroku-postgresql"
+      }
+    ]
+}
