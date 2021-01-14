@@ -1,5 +1,5 @@
 {
-    "name": "AiTorrentWare-Bot",
+    "name": "Ai-Voice-Bot",
     "description": "Telegram-Direct-Mirror to G-Drive",
     "logo": "https://telegra.ph/file/b0526eab13658ff5e2123.jpg",
     "keywords": [
@@ -34,7 +34,7 @@
       },
       "LANG": {
         "description": "Choose the preferred language for your bot. If English leave as it is, or change to the code of any supported language.",
-        "value": "/app/downloads",
+        "value": "en",
         "required": false
       },
       "DUR_LIMIT": {
