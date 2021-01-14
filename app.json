@@ -49,7 +49,7 @@
       },
       "BANNED": {
         "description": "Banned Users.",
-        "value": "30",
+        "value": "",
         "required": false
       },
       "API_ID": {
