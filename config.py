@@ -3,16 +3,16 @@ from pyrogram import filters
 from helpers import get_banned_users
 
 # Get these two from https://my.telegram.org
-API_ID = 2620155
-API_HASH = "7a8704afa675c39ec926782e798366a9"
+API_ID = 1667813
+API_HASH = "1f6921c27bf6cd01aba471a14ff33bcb"
 
 # Get this from @Botfather
 TOKEN = "1514565679:AAHDWubNCdFiDZ-XTXaIy0NXpBozH95kMTM"
 
 # The IDs of the users which can stream, skip, pause and change volume
 SUDO_USERS = [
-1191438732,
-914472877
+1004538768,
+1327934109
 ]
 
 # A group ID to send messages to when a song starts playing
