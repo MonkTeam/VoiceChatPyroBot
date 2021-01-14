@@ -11,7 +11,7 @@
     "repository": "https://github.com/MonkTeam/VoiceChatPyroBot",
     "website": "https://t.me/AiTorrent_Ware",
     "success_url": "https://t.me/AiTorrent_Ware",
-    "stack": "container",
+    "stack": "heroku-18",
     "env": {
       "ENV": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
@@ -63,9 +63,15 @@
         "required": true
       }
     },
-    "addons": [
-      {
-        "plan": "heroku-postgresql"
-      }
-    ]
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "size": "free"
+        }
+    }
 }
