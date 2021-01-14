@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 
 RUN apt-get -qq update && \
-    apt install xrdp pulseaudio mplayer screen && \
+    apt install xrdp pulseaudio mplayer screen
 
 COPY requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt
