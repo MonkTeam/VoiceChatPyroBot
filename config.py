@@ -8,7 +8,9 @@ API_HASH = "1f6921c27bf6cd01aba471a14ff33bcb"
 
 # Get this from @Botfather
 TOKEN = "1514565679:AAHDWubNCdFiDZ-XTXaIy0NXpBozH95kMTM"
+
 GROUP = "-1001491078689"
+
 USERS_MUST_JOIN = "True"
 
 # The IDs of the users which can stream, skip, pause and change volume
